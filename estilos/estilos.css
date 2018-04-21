@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'segoe UI',tahoma, geneva,verdana, sans-serif;
+
+}
+.contenedor{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-flow: row wrap;
+}
+#presentacion {
+    height: 100%;
+    width: 50%;
+    background-image: url("../img/ciudad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#presentacion::after{
+    content: "";
+    background: rgba(0,0,0,0.7);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+}
+#presentacion>div{
+    z-index: 1;
+}
+#texto{
+    height: 100%;
+    width: 50%;
+    display:flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+#nombre{
+    width: 100%;
+    display: flex;
+}
+.info{
+    
+    width: 80%;
+    height:22%;
+}
+.info>p{
+    color: rgba(0, 0,0, 0.7);
+
+}
+.info>a{
+    color:#3fa3ff;
+    text-decoration:none;
+}
+.info>h1{
+    font-size: 1.3em;
+    display: flex;
+    width: 79%;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.info>h1>p{
+    color: tomato;
+    font-size: .6em;
+
+}
+#presentacion{
+    display: flex;
+    flex-flow:column nowrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    
+}
+#presentacion>div>a>i{
+    font-size: 2em;
+}
+#presentacion>div>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    filter: grayscale (100%);
+}
+#presentacion>div>h2{
+    color: white;
+    font-size: 1.3em;
+    font-weight: lighter;
+}
+#presentacion>div>a{
+    color:white;
+    text-decoration:none;
+    border: 1px white solid;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    border-radius: 50%;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+}
