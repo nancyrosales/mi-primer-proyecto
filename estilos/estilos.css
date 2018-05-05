@@ -57,9 +57,9 @@
     text-decoration:none;
 }
 .info>h1{
-    font-size: 1.3em;
+    font-size: 1.1em;
     display: flex;
-    width: 79%;
+    width: 92%;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -85,7 +85,7 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    filter: grayscale (100%);
+    filter: grayscale(100%);
 }
 #presentacion>div>h2{
     color: white;
